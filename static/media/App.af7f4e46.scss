@@ -1,0 +1,120 @@
+.App {
+  text-align: center;
+}
+
+/* .App-header {
+  background-color: #222;
+  height: 0px;
+  padding: 0px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+} */
+
+.Header-Container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.visible {
+  visibility: visible;
+}
+
+#route-inner {
+  margin-top: 0.5em;
+  visibility: hidden;
+}
+
+.App-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightpink;
+  font-family: "Raleway", sans-serif;
+  height: 8.2em;
+  transition: all 0.2s ease;
+}
+
+.App-container:hover {
+  height: 11em;
+}
+
+.info-container {
+  position: relative;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  top: 75px;
+}
+
+.contact-inner {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact-inner {
+  margin-left: 5.5em;
+  @media screen and (max-width: 750px) {
+    margin-left: 2.5em;
+  }
+}
+
+.contact {
+  margin: 0 0 0 0;
+  padding-left: 0.5em;
+}
+
+#pinky {
+  font-size: 4em;
+  margin-top: 10px;
+  @media screen and (max-width: 750px) {
+    font-size: 2em;
+  }
+}
+
+#pinky:hover {
+  color: hotpink;
+}
+
+#desc {
+  color: white;
+  margin: 0 0 0 0;
+  /* opacity: 0; */
+}
+
+#desc:hover {
+  opacity: 0.5;
+}
+
+#route1 {
+  color: white;
+  font-size: 30px;
+}
+
+#route2 {
+  color: white;
+  font-size: 30px;
+}
+
+#route3 {
+  color: white;
+  font-size: 30px;
+}
+
+.contact-info {
+  position: absolute;
+  margin-top: 1px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

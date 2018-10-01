@@ -1,0 +1,26 @@
+$link-color: #93fed2;
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project-card {
+  width: 400px;
+}
+
+.project-inner img {
+  max-width: 400px;
+}
+
+.project-inner a {
+  color: black;
+}
+
+.project-inner a:hover {
+  color: $link-color;
+}
+
+.project-image img:hover {
+  box-shadow: 10px 8px;
+}
