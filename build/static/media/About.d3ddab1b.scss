@@ -1,0 +1,76 @@
+$link-color: #93fed2;
+
+.About-page {
+  padding-top: 8.5em;
+  text-align: center;
+  position: relative;
+  padding-bottom: 8.5em;
+}
+
+.personal-photo img {
+  width: 100%;
+  height: auto;
+  padding-top: 3em;
+  max-width: 300px;
+  flex-grow: 2;
+}
+
+.personal-photo img {
+  padding: 0 0 0 0;
+}
+
+.About-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.published-work a {
+  color: black;
+}
+
+.published-work a:hover {
+  color: $link-color;
+}
+
+.published-work {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 350px;
+}
+
+.publications {
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.About-image img {
+  max-height: 500px;
+  max-width: 400px;
+  @media screen and (max-width: 750px) {
+    max-height: 100px;
+    max-width: 300px;
+  }
+}
+
+.About-inner {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.About-text-photo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
