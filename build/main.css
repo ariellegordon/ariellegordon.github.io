@@ -211,7 +211,14 @@ a:hover {
 .project-card {
   width: 400px;
 }
-@media screen and (max-width: 1190) {
+
+@media screen and (max-width: 1190px) {
+  .project-list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1190px) {
   .project-card {
     width: 300px;
   }
